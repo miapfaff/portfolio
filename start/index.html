@@ -1,11 +1,10 @@
-<head> This is my portfolio!</head>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -22,18 +21,25 @@
             <h2>About Me</h2>
             <p>I am a second-year student at the University of Delaware pursuing my BS in Computer Science with a concentration in AI/Robotics. I love to learn, read, lift, and hike!</p>
         </section>
-        <section id="projects">
+        <section id="projects" class="hidden">
             <h2>Projects</h2>
-            <div class="project">
-                <h3>Mia Pfaff</h3>
-                <p>This website showcases my accomplishments.</p>
+            <div class="calculator">
+                <h3>Calculator</h3>
+                <p>•	Developed a pink calculator app using Python that performs basic calculations with trigonometric functions.</p>
             </div>
-            <!-- Repeat for more projects -->
+            <div class="galaga">
+                <h3>Galaga Game</h3>
+                <p>•	Developed an alien-invader themed game as a class project in Thonny using Python.</p>
+            </div>
+            <div class="habit">
+                <h3>Habit Tracker</h3>
+                <p>•	Leveraged the versatility of WebEz framework using typescript/HTML/CSS to design a user-friendly habit tracker  website to enhance personal productivity. </p>
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Mia Pfaff</p>
     </footer>
-    <script src="scripts/script.js"></script>
+    <script src="start/scripts.ts"></script>
 </body>
 </html>
