@@ -2,10 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #eadada;
+    background-color: #eee6d7;
 }
 header {
-    background-color: #302020;
+    background-color: #241919;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -22,6 +22,18 @@ nav ul li a {
     color: white;
     text-decoration: underline;
 }
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-container section {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 main {
     padding: 20px;
 }
@@ -29,7 +41,7 @@ section {
     margin-bottom: 20px;
 }
 footer {
-    background-color: #302020;
+    background-color: #241919;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -39,4 +51,10 @@ footer {
 }
 .hidden {
     display: none;
+}
+
+.calc-image {
+    width: 100%; /* Adjust as needed */
+    max-width: 150px; /* Optional: Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
 }
