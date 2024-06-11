@@ -44,17 +44,45 @@ footer {
     background-color: #241919;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 1;
     position: fixed;
-    bottom: 0;
+    bottom:0;
     width: 100%;
 }
 .hidden {
     display: none;
 }
-
+.calculator {
+    display: flex;
+    align-items:flex-start;
+}
+.galaga {
+    display: flex;
+    align-items:flex-start;
+}
+.habit {
+    display: flex;
+    align-items:flex-start;
+}
+.about {
+    display: flex;
+    align-items:flex-start;
+}
+.about-me {
+    width: 100%; /* Adjust as needed */
+    max-width: 150px; /* Optional: Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+}
 .calc-image {
     width: 100%; /* Adjust as needed */
     max-width: 150px; /* Optional: Set a maximum width */
     height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+}
+.galaga-image {
+    width: 100%; /* Adjust as needed */
+    max-width: 150px; /* Optional: Set a maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
 }
