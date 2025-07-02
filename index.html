@@ -3,72 +3,273 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Mia Pfaff - Computer Science Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Mia Pfaff's Portfolio</h1>
+        <h1>Mia Pfaff</h1>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#" id="projects-link">Projects</a></li>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="content-container">
-            <section id="about">
-                <h2>About Me</h2>
-                <div class="about">
-                <img src="images/1713911537525.jpg" alt="Screenshot" class="about-me">
-                <p>I am a second-year student at the University of Delaware pursuing my BS in Computer Science with a concentration in AI/Robotics. I love to learn, read, lift, and hike!
-                    Proficient in Python, Typescript, R, C, C++, Linux, ARM64, HTML, and CSS.
+        <!-- Hero/Homepage Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Computer Science Student</h1>
+                <h2 class="hero-subtitle">AI/Robotics • University of Delaware</h2>
+                <p class="hero-description">
+                    Passionate about technology, innovation, and creating solutions that matter. 
+                    Specializing in artificial intelligence and robotics with a love for problem-solving.
                 </p>
-            </div>
-            </section>
-            <section id="projects" class="hidden">
-                <h2>Projects</h2>
-
-                <h3><a href="https://github.com/miapfaff/HashMapAuthorsVoice" target="_blank">HashMap Author's Voice</a></h3>
-                <div class="bin">
-                    <p>This project showcases a custom hash map, developed as part of a CISC220 coursework project. It explores key data structures and algorithms concepts such as hash functions, collision resolution, and dynamic resizing.
-                        <br>Demo video: <a href=" https://youtu.be/jIYEzlOG_OE" target="_blank">Click here to see the hashmap in action</a></br></p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn-primary">Learn More About Me</a>
+                    <a href="#projects" class="btn-secondary">View My Projects</a>
                 </div>
-
-                <h3><a href="https://github.com/miapfaff/python_first_calculator" target="_blank">Calculator</a></h3>
-                <div class="calculator">
-                    <img src="images/Screenshot 2024-06-08 201111.png" alt="Screenshot" class="calc-image">
-                    <p>Developed a pink calculator app using Python that performs basic calculations with trigonometric functions.
-                        <br>Demo video: <a href="https://youtube.com/shorts/xrNkzBzMGzg?feature=share" target="_blank">Click here to watch calculations</a></br></p>
-                    </p>
-                </div>
-
-                <h3><a href="https://github.com/miapfaff/galagagame.git" target="_blank">Galaga Game</a></h3>
-                <div class="galaga">
-                    <img src="images/Screenshot (101).png" alt="Screenshot" class="galaga-image">
-                    <p>Developed an alien-invader themed game as a class project in Thonny using Python. 
-                        <br>Demo video: <a href="https://youtu.be/Awt9fIAsirs" target="_blank">Click here to watch the game</a></br></p>
-                </div>
-
-                <h3><a href="https://ud-s24-cisc181.github.io/final-project-miapfaff/" target="_blank">Habit Tracker</a></h3>
-                <div class="habit">
-                    <img src="images/Screenshot (102).png" alt="Screenshot" class="galaga-image">
-                    <p>Leveraged the versatility of WebEz framework using TypeScript/HTML/CSS to design a user-friendly habit tracker website to enhance personal productivity. </p>
-                </div>
-
-                <h3><a href="https://github.com/miapfaff/binclock.git" target="_blank">Binary Clock</a></h3>
-                <div class="bin">
-                    <p>Displays a 24-hour binary clock on the sense hat of a raspberry pi 4, but does so using multiple files
-                        compiled together.
-                        <br>Demo video: <a href="https://youtube.com/shorts/TkiixmwXSLc?feature=share" target="_blank">Click here to watch the clock</a></br></p>
+                <div class="tech-stack">
+                    <span class="tech-item">Python</span>
+                    <span class="tech-item">TypeScript</span>
+                    <span class="tech-item">Javascript</span>
+                    <span class="tech-item">C/C++</span>
+                    <span class="tech-item">HTML/CSS</span>
+                    <span class="tech-item">Assembly</span>
+                    <span class="tech-item">R</span>
                 </div>
             </div>
-            </section>
-        </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about">
+                <img src="images/1713911537525.jpg" alt="Mia Pfaff" class="about-me">
+                <div class="about-text">
+                    <p>I am a third-year student at the University of Delaware pursuing my BS in Computer Science with a concentration in AI/Robotics. I love to learn, read, lift, and hike!</p>
+                    
+                    <p>My passion for technology drives me to constantly explore new programming languages, frameworks, and emerging technologies. Whether I'm developing games, building web applications, or working with embedded systems, I approach every project with curiosity and determination.</p>
+                    
+                    <div class="skills-section">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Programming Languages</h4>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>TypeScript</li>
+                                    <li>C</li>
+                                    <li>C++</li>
+                                    <li>R</li>
+                                    <li>Assembly</li>
+                                    <li>JavaScript</li>
+                                    <li>CSS</li>
+                                    <li>HTML</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Frameworks & Tools</h4>
+                                <ul>
+                                    <li>CAD Fusion 360</li>
+                                    <li>R Studio</li>
+                                    <li>PyCharm</li>
+                                    <li>VSCode</li>
+                                    <li>CLion</li>
+                                    <li>Linux</li>
+                                    <li>Markdown</li>
+                                    <li>React (Hooks)</li>
+                                    <li>BootStrap</li>
+                                    <li>OpenAI API</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Soft Skills</h4>
+                                <ul>
+                                    <li>Teaching</li>
+                                    <li>Mentoring</li>
+                                    <li>Debugging</li>
+                                    <li>Communication</li>
+                                    <li>Teamwork</li>
+                                    <li>Time Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="interests">
+                        <h3>When I'm Not Coding</h3>
+                        <p>You'll find me cooking, hitting the gym, exploring trails, or diving into a good book. I believe in maintaining a healthy balance between technical pursuits and personal wellness.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-intro">
+                <p>Here's a showcase of some projects I've worked on, demonstrating my skills in various programming languages and technologies.</p>
+            </div>
+
+            <h3><a href="https://emmajudd.github.io/CISC275-finalproject/" target="_blank">The Pink Path: AI-Powered Career Suggestion Web App</a></h3>
+            <div class="career-app">
+                <img src="images\Screenshot 2025-07-02 142547.png" alt="The Pink Path Career App Screenshot" class="career-app-image">
+                <div class="project-content">
+                    <p><strong>Technologies:</strong> TypeScript, ChatGPT API, React, Agile, UX/UI Design </p>
+                    <p>Developed a career recommendation web app, The Career Helper, using React, TypeScript, and ChatGPT API. Implemented dynamic questionnaires, progress tracking, and personalized GPT-generated career reports.</p>
+                    <p>Collaborated in a team for a Software Engineering course to deliver a fully tested, linted, and GitHub Pages–deployed MVP with agile sprints and structured epics, stories, and tasks.</p>
+                    <div class="project-links">
+                        <a href="https://emmajudd.github.io/CISC275-finalproject/" target="_blank">🌐 Live Demo</a>
+                        <a href="https://youtu.be/VBuoDI_wKIU?si=QTvD6FHBu8LjlWOp" target="_blank">🎥 Demo Video</a>
+                    </div>
+                </div>
+            </div>
+
+            <h3><a href="https://github.com/miapfaff/python_first_calculator" target="_blank">Calculator</a></h3>
+            <div class="calculator">
+                <img src="images/Screenshot 2024-06-08 201111.png" alt="Python Calculator Screenshot" class="calc-image">
+                <div class="project-content">
+                    <p><strong>Technologies:</strong> Python, Tkinter GUI | <strong>Personal Project</strong></p>
+                    <p>Developed a pink calculator app using Python that performs basic calculations with trigonometric functions.</p>
+                    <div class="project-links">
+                        <a href="https://youtube.com/shorts/xrNkzBzMGzg?feature=share" target="_blank">🎥 Demo Video</a>
+                    </div>
+                </div>
+            </div>
+
+            <h3><a href="https://github.com/miapfaff/galagagame.git" target="_blank">Galaga Game</a></h3>
+            <div class="galaga">
+                <img src="images/Screenshot (101).png" alt="Galaga Game Screenshot" class="galaga-image">
+                <div class="project-content">
+                    <p><strong>Technologies:</strong> Python, Pygame | <strong>CISC108 Project</strong></p>
+                    <p>Developed an alien-invader themed game as a class project utilizing Thonny and Python.</p>
+                    <div class="project-links">
+                        <a href="https://youtu.be/Awt9fIAsirs" target="_blank">🎥 Demo Video</a>
+                    </div>
+                </div>
+            </div>
+
+            <h3><a href="https://ud-s24-cisc181.github.io/final-project-miapfaff/" target="_blank">Habit Tracker</a></h3>
+            <div class="habit">
+                <img src="images/Screenshot (102).png" alt="Habit Tracker Screenshot" class="habit-image">
+                <div class="project-content">
+                    <p><strong>Technologies:</strong> WebEz Framework, TypeScript, HTML/CSS | <strong>CISC181 Project</strong></p>
+                    <p>Leveraged the versatility of WebEz framework using TypeScript/HTML/CSS to design a user-friendly habit tracker website to enhance personal productivity.</p>
+                    <div class="project-links">
+                        <a href="https://ud-s24-cisc181.github.io/final-project-miapfaff/" target="_blank">🌐 Live Demo</a>
+                        <a href="https://youtu.be/yyyLT73mmLo?si=_cp7rq_5QmdGsTwo" target="_blank">🎥 Demo Video</a>
+                    </div>
+                </div>
+            </div>
+
+            <h3><a href="https://github.com/miapfaff/HashMapAuthorsVoice" target="_blank">HashMap Author's Voice</a></h3>
+            <div class="bin">
+                <div class="project-content">
+                    <p><strong>Technologies:</strong> Data Structures, Algorithms | <strong>CISC220 Project</strong></p>
+                    <p>This project showcases a custom hash map, developed as part of a CISC220 coursework project. It explores key data structures and algorithms concepts such as hash functions, collision resolution, and dynamic resizing.</p>
+                    <div class="project-links">
+                        <a href="https://youtu.be/jIYEzlOG_OE" target="_blank">🎥 Demo Video</a>
+                    </div>
+                </div>
+            </div>
+
+            <h3><a href="https://github.com/miapfaff/binclock.git" target="_blank">Binary Clock</a></h3>
+            <div class="bin">
+                <div class="project-content">
+                    <p><strong>Technologies:</strong> Raspberry Pi, Python, Sense HAT | <strong>CISC210 Project</strong></p>
+                    <p>Displays a 24-hour binary clock on the sense hat of a raspberry pi 4, but does so using multiple files compiled together.</p>
+                    <div class="project-links">
+                        <a href="https://youtube.com/shorts/TkiixmwXSLc?feature=share" target="_blank">🎥 Demo Video</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-intro">
+                <p>I'm always excited to discuss new opportunities, collaborate on projects, or connect with fellow developers. Feel free to reach out!</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:miapfaff@udel.edu">miapfaff@udel.edu</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+13025000739">(302) 500-0739</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🎓</div>
+                        <div class="contact-details">
+                            <h3>University</h3>
+                            <p>University of Delaware<br>Computer Science Major</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📄</div>
+                        <div class="contact-details">
+                            <h3>Resume</h3>
+                            <a href="resume/Mia_Pfaff_Resume.pdf" target="_blank" class="resume-link">Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send me a message</h3>
+                    <form class="contact-form-container" action="mailto:miapfaff@udel.edu" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        
+                        <!-- Hidden field to help with spam -->
+                        <input type="hidden" name="_next" value="https://miapfaff.github.io/portfolio/#contact">
+                        <input type="hidden" name="_subject" value="Portfolio Contact Form">
+                    </form>
+                    
+                    <div class="form-note">
+                        <p><small>💡 <strong>Alternative:</strong> You can also email me directly at <a href="mailto:miapfaff@udel.edu">miapfaff@udel.edu</a></small></p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        <p>&copy; 2025 Mia Pfaff</p>
+        <p>&copy; 2025 Mia Pfaff | Computer Science Student | University of Delaware</p>
     </footer>
     <script src="scripts.js"></script>
 </body>
